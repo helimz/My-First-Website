@@ -1,0 +1,81 @@
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+div.carouselExampleFade
+{
+
+}
+img#Picture1{
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 15px 150px;
+}
+img#Picture2{
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 15px 150px;
+}
+img#Picture3{
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 15px 150px;
+}
+h1 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 5em;
+}
+h2{
+  font-size: 1;
+  text-align: center;
+}
+h3{
+  font-size: 2.3em;
+}
+p#paragraph1{
+  width: 50%;
+  margin: 0 10vw 10vh 10vw;
+  font-size: 0.85em;
+}
+p#paragraph2{
+  width: 50%;
+  margin: 0 10vw 10vh 10vw;
+  font-size: 0.85em;
+}
+p#paragraph3{
+width: 50%;
+margin: 0 10vw 10vh 10vw;
+font-size: 0.85em;
+}
+
+img#Picture4{
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 150px;
+}
+img#Picture5{
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 150px;
+}
+img#Picture6{
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 150px;
+}
+li {
+  margin: 0 20px;
+  transition: 0.6s ease;
+}
