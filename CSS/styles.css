@@ -162,7 +162,7 @@ div#div2 {
   flex-direction: column;
 }
 div#div3 {
-  background-color: rgb(66,135,245);
+  background-color: rgb(66, 245, 117);
   color: rgb(255,255,255);
   display: flex;
   justify-content: center;
@@ -170,7 +170,7 @@ div#div3 {
   flex-direction: column;
 }
 div#div4 {
-  background-color: rgb(245,66,132);
+  background-color: rgb(66, 245, 117);
   color: rgb(255,255,255);
   display: flex;
   justify-content: center;
@@ -178,7 +178,7 @@ div#div4 {
   flex-direction: column;
 }
 div#div5 {
-  background-color: rgb(66,135,245);
+  background-color: rgb(66, 245, 242);
   color: rgb(255,255,255);
   display: flex;
   justify-content: center;
@@ -186,7 +186,7 @@ div#div5 {
   flex-direction: column;
 }
 div#div6 {
-  background-color: rgb(245,66,132);
+  background-color: rgb(245, 66, 135);
   color: rgb(255,255,255);
   display: flex;
   justify-content: center;
@@ -194,7 +194,7 @@ div#div6 {
   flex-direction: column;
 }
 div#div7 {
-  background-color: rgb(66,135,245);
+  background-color: rgb(245, 66, 66);
   color: rgb(255,255,255);
   display: flex;
   justify-content: center;
@@ -202,7 +202,7 @@ div#div7 {
   flex-direction: column;
 }
 div#div8 {
-  background-color: rgb(245,66,132);
+  background-color: rgb(245, 66, 66);
   color: rgb(255,255,255);
   display: flex;
   justify-content: center;
@@ -210,7 +210,7 @@ div#div8 {
   flex-direction: column;
 }
 div#div9 {
-  background-color: rgb(245,66,132);
+  background-color: rgb(66, 245, 185);
   color: rgb(255,255,255);
   display: flex;
   justify-content: center;
@@ -218,13 +218,22 @@ div#div9 {
   flex-direction: column;
 }
 div#div10 {
-  background-color: rgb(245,66,132);
+  background-color: rgb(66, 172, 247);
   color: rgb(255,255,255);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+div#div11 {
+  background-color: rgb(245,66,203);
+  color: rgb(255,255,255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 ul {
   list-style: none;
   display: flex;
