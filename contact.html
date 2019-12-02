@@ -17,7 +17,6 @@
 <link rel="stylesheet" href="JS/JS">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
 
 
@@ -25,24 +24,94 @@
 <body>
 
   <div class="topnav">
-    <a href="index.html">Home</a>
+    <a  href="index.html">Home</a>
   <a href="about.html">About</a>
-    <a class= "active" href="contact.html">Contact</a>
-    <div class="search-container">
-      <form action="/action_page.php">
-        <input type="text" placeholder="Search.." name="search">
+    <a class="active" href="contact.html">Contact</a>
+    <div class="search-box">
+      <form action="" method="" id"searchForm">
+        <input type="text"  placeholder="Search..." value="" Maxlength="25" name="">
         <button type="submit">Submit</button>
       </form>
+
     </div>
   </div>
+
+
+
+
+
   <div class="jumbotron jumbotron-fluid">
-  <div class="container">
+  <div id="div13" class="container">
     <h1 class="display-4">Contact information</h1>
     <p class="lead">
-    Name: Helima Rahman
-    Email: helimz1@hotmail.co.uk
-    My github: <a href="https://github.com/helimz/solo">Helima's github</p>
+   <ul>
+    <li> Name: Helima Rahman</li>
+    <li>Email: helimz1@hotmail.co.uk</li>
+    <li>My github: <font color= Persian Blue Hex Color ><a href="https://github.com/helimz/solo" style="color:#1235cf">Helima's github</a> </font> </li>
+
+      </ul>
+      </p>
+      <div>
+      <a href="https://www.facebook.com/Helimz?ref=bookmarks" class="fa fa-facebook"></a>
+      <a href="https://twitter.com/helimzy" class="fa fa-twitter"></a>
+      <a href="https://www.instagram.com/helimz1/" class="fa fa-instagram"></a>
+      </div>
+      <p id="paragraph15"> If you want me to get in contact with you, you can leave your details down below. </p>
+      <div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="London">London</option>
+      <option value="Bristol">Bristol</option>
+      <option value="Manchester">Manchester</option>
+      <option value="Edinburgh">Edinburgh</option>
+      <option value="Birmingham">Birmingham</option>
+      <option value="Glasgow">Glasgow</option>
+      <option value="Liverpool">Liverpool</option>
+      <option value="Leeds">Leeds</option>
+      <option value="Cardiff">Cardiff</option>
+      <option value="Newcastle">Newcastle</option>
+      <option value="Cambridge">Cambridge</option>
+      <option value="Sheffield">Sheffield</option>
+      <option value="Southampton">Southampton</option>
+      <option value="York">York</option>
+      <option value="Nottingham">Nottingham</option>
+      <option value="Belfast">Belfast</option>
+      <option value="Brighton">Brighton</option>
+      <option value="Leicester">Leicester</option>
+      <option value="Oxford">Oxford</option>
+      <option value="Conventry">Conventry</option>
+      <option value="Portsmouth">Portsmouth</option>
+      <option value="Aberdeen">Aberdeen</option>
+      <option value="Plymouth">Plymouth</option>
+      <option value="Norwich">Norwich</option>
+      <option value="Swansea">Swansea</option>
+      <option value="Southampton">Southampton</option>
+      <option value="Hull">Hullk</option>
+      <option value="Stoke-on-Trent">Stoke-on-Trent</option>
+      <option value="Bradford">Bradford</option>
+      <option value="Bath">Bath</option>
+      <option value="Wolverhampton">Wolverhampton</option>
+
+
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
   </div>
 </div>
+
 </body>
 </html>
