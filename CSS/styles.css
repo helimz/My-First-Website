@@ -9,6 +9,9 @@ div.carouselExampleFade
 {
 
 }
+~/Content/bootstrap.css
+~/Content/bootstrap.min.css
+
 .fa {
 
     padding: 20px;
@@ -395,7 +398,7 @@ body {
   overflow: auto;
 }
 input[type=text], select, textarea {
-  width: 100%; 
+  width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
